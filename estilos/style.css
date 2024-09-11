@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: gray;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+}
+div.login{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: 1px dotted black;
+}
+div#img{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(../imagens/pexels-pavel-danilyuk-6461501.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 4px black;
+}
+div#img > h1, p{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.695);
+}
+form {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(255, 255, 255, 0.695);
+    width: 100%;
+    text-align: center;
+}
+form > a{
+    text-decoration: none;
+    color: black;
+    border: 1px dotted black;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+form > a:hover{
+    background-color: gray;
+    color: white;
+}
+
+form > div.campo{
+    margin-bottom: 2px;
+    padding: 1px;
+    border-radius: 5px;
+}
+form > div.campo01{
+    padding: 1px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+input{
+    padding: 5px;
+    margin-bottom: 2px;
+    background-color: rgba(128, 128, 128, 0.516);
+    border: 1px dotted black;
+    font-size: 1em;
+    cursor: pointer;
+}
+input:hover{
+    background-color: rgba(255, 255, 255, 0.574);
+    font-weight: bolder;
+    font-size: 1em;
+}
+span.material-icons{
+    color: white;
+}
